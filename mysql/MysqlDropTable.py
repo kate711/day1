@@ -10,11 +10,11 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 # sql = "DROP TABLE customers"
-sql = "DROP TABLE IF EXISTS customers"
+sql = "DROP TABLE IF EXISTS products"
 
 mycursor.execute(sql)
 
-sql1 = "SHOW DATABASES"
+sql1 = "SHOW TABLES"
 
 mycursor.execute(sql1)
 
