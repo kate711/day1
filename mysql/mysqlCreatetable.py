@@ -10,7 +10,7 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 # mycursor.execute('CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))')
-mycursor.execute('CREATE TABLE users (name VARCHAR(255), fav VARCHAR(255))')
+# mycursor.execute('CREATE TABLE users (name VARCHAR(255), fav VARCHAR(255))')
 mycursor.execute('CREATE TABLE products (id VARCHAR(255), name VARCHAR(255))')
 # mycursor.execute('SHOW TABLES')
 # mycursor.execute('DROP TABLE products')
